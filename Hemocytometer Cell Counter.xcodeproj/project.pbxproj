@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0018A71D615F4B00F5BB97 /* IMG_1205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0018A61D615F4B00F5BB97 /* IMG_1205.jpg */; };
+		4F2DFB091D65432D00DC6942 /* beep-08b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2DFB081D65432D00DC6942 /* beep-08b.wav */; };
+		4F44F33F1D51A1ED0018B0C7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F44F33E1D51A1ED0018B0C7 /* MessageUI.framework */; };
+		4FB8B76C1D4FFF62009AEECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B76B1D4FFF62009AEECC /* AppDelegate.swift */; };
+		4FB8B76E1D4FFF62009AEECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B76D1D4FFF62009AEECC /* ViewController.swift */; };
+		4FB8B7711D4FFF62009AEECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB8B76F1D4FFF62009AEECC /* Main.storyboard */; };
+		4FB8B7731D4FFF62009AEECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB8B7721D4FFF62009AEECC /* Assets.xcassets */; };
+		4FB8B7761D4FFF62009AEECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB8B7741D4FFF62009AEECC /* LaunchScreen.storyboard */; };
+		4FB8B7811D4FFF62009AEECC /* Hemocytometer_Cell_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B7801D4FFF62009AEECC /* Hemocytometer_Cell_CounterTests.swift */; };
+		4FB8B78C1D500A22009AEECC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B78B1D500A22009AEECC /* SampleViewController.swift */; };
+		4FB8B78E1D505202009AEECC /* FinishScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B78D1D505202009AEECC /* FinishScreenViewController.swift */; };
+		4FB8B7901D505762009AEECC /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8B78F1D505762009AEECC /* SampleCell.swift */; };
+		4FD56E811D52D6AA00761EB7 /* button-16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FD56E801D52D6AA00761EB7 /* button-16.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FB8B77D1D4FFF62009AEECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB8B7601D4FFF62009AEECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB8B7671D4FFF62009AEECC;
+			remoteInfo = "Hemocytometer Cell Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F0018A61D615F4B00F5BB97 /* IMG_1205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1205.jpg; sourceTree = "<group>"; };
+		4F2DFB081D65432D00DC6942 /* beep-08b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-08b.wav"; sourceTree = "<group>"; };
+		4F44F33E1D51A1ED0018B0C7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4FB8B7681D4FFF62009AEECC /* Cell Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB8B76B1D4FFF62009AEECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FB8B76D1D4FFF62009AEECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FB8B7701D4FFF62009AEECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FB8B7721D4FFF62009AEECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FB8B7751D4FFF62009AEECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FB8B7771D4FFF62009AEECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB8B77C1D4FFF62009AEECC /* Hemocytometer Cell CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hemocytometer Cell CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB8B7801D4FFF62009AEECC /* Hemocytometer_Cell_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hemocytometer_Cell_CounterTests.swift; sourceTree = "<group>"; };
+		4FB8B7821D4FFF62009AEECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB8B78B1D500A22009AEECC /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleViewController.swift; path = ../SampleViewController.swift; sourceTree = "<group>"; };
+		4FB8B78D1D505202009AEECC /* FinishScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishScreenViewController.swift; sourceTree = "<group>"; };
+		4FB8B78F1D505762009AEECC /* SampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		4FD56E801D52D6AA00761EB7 /* button-16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-16.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB8B7651D4FFF62009AEECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F44F33F1D51A1ED0018B0C7 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB8B7791D4FFF62009AEECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FB8B75F1D4FFF62009AEECC = {
+			isa = PBXGroup;
+			children = (
+				4F44F33E1D51A1ED0018B0C7 /* MessageUI.framework */,
+				4FB8B76A1D4FFF62009AEECC /* Hemocytometer Cell Counter */,
+				4FB8B77F1D4FFF62009AEECC /* Hemocytometer Cell CounterTests */,
+				4FB8B7691D4FFF62009AEECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FB8B7691D4FFF62009AEECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB8B7681D4FFF62009AEECC /* Cell Counter.app */,
+				4FB8B77C1D4FFF62009AEECC /* Hemocytometer Cell CounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FB8B76A1D4FFF62009AEECC /* Hemocytometer Cell Counter */ = {
+			isa = PBXGroup;
+			children = (
+				4FB8B76B1D4FFF62009AEECC /* AppDelegate.swift */,
+				4FB8B76D1D4FFF62009AEECC /* ViewController.swift */,
+				4FB8B78B1D500A22009AEECC /* SampleViewController.swift */,
+				4FB8B78D1D505202009AEECC /* FinishScreenViewController.swift */,
+				4FB8B78F1D505762009AEECC /* SampleCell.swift */,
+				4FB8B76F1D4FFF62009AEECC /* Main.storyboard */,
+				4F2DFB081D65432D00DC6942 /* beep-08b.wav */,
+				4FD56E801D52D6AA00761EB7 /* button-16.wav */,
+				4F0018A61D615F4B00F5BB97 /* IMG_1205.jpg */,
+				4FB8B7721D4FFF62009AEECC /* Assets.xcassets */,
+				4FB8B7741D4FFF62009AEECC /* LaunchScreen.storyboard */,
+				4FB8B7771D4FFF62009AEECC /* Info.plist */,
+			);
+			path = "Hemocytometer Cell Counter";
+			sourceTree = "<group>";
+		};
+		4FB8B77F1D4FFF62009AEECC /* Hemocytometer Cell CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB8B7801D4FFF62009AEECC /* Hemocytometer_Cell_CounterTests.swift */,
+				4FB8B7821D4FFF62009AEECC /* Info.plist */,
+			);
+			path = "Hemocytometer Cell CounterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FB8B7671D4FFF62009AEECC /* Hemocytometer Cell Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB8B7851D4FFF62009AEECC /* Build configuration list for PBXNativeTarget "Hemocytometer Cell Counter" */;
+			buildPhases = (
+				4FB8B7641D4FFF62009AEECC /* Sources */,
+				4FB8B7651D4FFF62009AEECC /* Frameworks */,
+				4FB8B7661D4FFF62009AEECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hemocytometer Cell Counter";
+			productName = "Hemocytometer Cell Counter";
+			productReference = 4FB8B7681D4FFF62009AEECC /* Cell Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FB8B77B1D4FFF62009AEECC /* Hemocytometer Cell CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB8B7881D4FFF62009AEECC /* Build configuration list for PBXNativeTarget "Hemocytometer Cell CounterTests" */;
+			buildPhases = (
+				4FB8B7781D4FFF62009AEECC /* Sources */,
+				4FB8B7791D4FFF62009AEECC /* Frameworks */,
+				4FB8B77A1D4FFF62009AEECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB8B77E1D4FFF62009AEECC /* PBXTargetDependency */,
+			);
+			name = "Hemocytometer Cell CounterTests";
+			productName = "Hemocytometer Cell CounterTests";
+			productReference = 4FB8B77C1D4FFF62009AEECC /* Hemocytometer Cell CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FB8B7601D4FFF62009AEECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bryan Zhang";
+				TargetAttributes = {
+					4FB8B7671D4FFF62009AEECC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7A2R97G98;
+					};
+					4FB8B77B1D4FFF62009AEECC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q3NA967GCM;
+						TestTargetID = 4FB8B7671D4FFF62009AEECC;
+					};
+				};
+			};
+			buildConfigurationList = 4FB8B7631D4FFF62009AEECC /* Build configuration list for PBXProject "Hemocytometer Cell Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FB8B75F1D4FFF62009AEECC;
+			productRefGroup = 4FB8B7691D4FFF62009AEECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FB8B7671D4FFF62009AEECC /* Hemocytometer Cell Counter */,
+				4FB8B77B1D4FFF62009AEECC /* Hemocytometer Cell CounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FB8B7661D4FFF62009AEECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB8B7761D4FFF62009AEECC /* LaunchScreen.storyboard in Resources */,
+				4F0018A71D615F4B00F5BB97 /* IMG_1205.jpg in Resources */,
+				4FD56E811D52D6AA00761EB7 /* button-16.wav in Resources */,
+				4F2DFB091D65432D00DC6942 /* beep-08b.wav in Resources */,
+				4FB8B7731D4FFF62009AEECC /* Assets.xcassets in Resources */,
+				4FB8B7711D4FFF62009AEECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB8B77A1D4FFF62009AEECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FB8B7641D4FFF62009AEECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB8B76E1D4FFF62009AEECC /* ViewController.swift in Sources */,
+				4FB8B76C1D4FFF62009AEECC /* AppDelegate.swift in Sources */,
+				4FB8B7901D505762009AEECC /* SampleCell.swift in Sources */,
+				4FB8B78E1D505202009AEECC /* FinishScreenViewController.swift in Sources */,
+				4FB8B78C1D500A22009AEECC /* SampleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB8B7781D4FFF62009AEECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB8B7811D4FFF62009AEECC /* Hemocytometer_Cell_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FB8B77E1D4FFF62009AEECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB8B7671D4FFF62009AEECC /* Hemocytometer Cell Counter */;
+			targetProxy = 4FB8B77D1D4FFF62009AEECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FB8B76F1D4FFF62009AEECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB8B7701D4FFF62009AEECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FB8B7741D4FFF62009AEECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB8B7751D4FFF62009AEECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FB8B7831D4FFF62009AEECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FB8B7841D4FFF62009AEECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FB8B7861D4FFF62009AEECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hemocytometer Cell Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bzhang57.CellCountingApp.Hemocytometer;
+				PRODUCT_NAME = "Cell Counter";
+			};
+			name = Debug;
+		};
+		4FB8B7871D4FFF62009AEECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hemocytometer Cell Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bzhang57.CellCountingApp.Hemocytometer;
+				PRODUCT_NAME = "Cell Counter";
+			};
+			name = Release;
+		};
+		4FB8B7891D4FFF62009AEECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hemocytometer Cell CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hemocytometer-Cell-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hemocytometer Cell Counter.app/Hemocytometer Cell Counter";
+			};
+			name = Debug;
+		};
+		4FB8B78A1D4FFF62009AEECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hemocytometer Cell CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hemocytometer-Cell-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hemocytometer Cell Counter.app/Hemocytometer Cell Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FB8B7631D4FFF62009AEECC /* Build configuration list for PBXProject "Hemocytometer Cell Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB8B7831D4FFF62009AEECC /* Debug */,
+				4FB8B7841D4FFF62009AEECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB8B7851D4FFF62009AEECC /* Build configuration list for PBXNativeTarget "Hemocytometer Cell Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB8B7861D4FFF62009AEECC /* Debug */,
+				4FB8B7871D4FFF62009AEECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB8B7881D4FFF62009AEECC /* Build configuration list for PBXNativeTarget "Hemocytometer Cell CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB8B7891D4FFF62009AEECC /* Debug */,
+				4FB8B78A1D4FFF62009AEECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FB8B7601D4FFF62009AEECC /* Project object */;
+}
